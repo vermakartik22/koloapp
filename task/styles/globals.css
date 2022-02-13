@@ -58,3 +58,22 @@ a {
   width: 100%;
   margin: 0 auto;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 728px) {
+  /* For portrait layouts only */
+  .searchHeros input.ant-input {
+    width: 100%;
+  }
+  .heroBox {
+    width: 100%;
+  }
+  .thumbNail {
+    text-align: center;
+  }
+  .heroDescription {
+    text-align: center;
+  }
+  .wrap {
+    padding: 0px 30px;
+  }
+}
