@@ -14,3 +14,47 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.thumbNail img {
+  width: 150px;
+  height: 221px;
+}
+
+.heroBox {
+  width: 150px;
+  height: 225px;
+  margin: 20px auto;
+}
+
+.heroDescription,.thumbNail {
+  width: 100%;
+  float: left;
+}
+.thumbNail{
+  border-bottom: 4px red solid;
+  height: 225px;
+  background: black;
+}
+.heroDescription {
+  height: 140px;
+  background: black;
+  padding: 5px;
+  border-bottom-right-radius: 16px;
+}
+.heroDescription h1 {
+  font-size: 14px;
+  color: white;
+}
+.heroWrap{
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+.searchHeros input {
+  width: 200px;
+}
+.searchHeros {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+}
